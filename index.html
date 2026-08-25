@@ -340,122 +340,108 @@
         <section id="schedule" class="mb-12 bg-slate-900/70 rounded-lg shadow-lg p-8 border border-slate-800">
             <h2 class="section-title">Program</h2>
             <p class="mb-4 text-sm text-slate-400">Sep 9th &middot; All times are in Malmö, Sweden (CEST)</p>
-            <div class="overflow-x-auto rounded-lg shadow-md border border-slate-800">
-                <table class="w-full text-left text-slate-200">
-                    <tbody class="text-sm leading-relaxed">
-                        <tr class="bg-slate-950/30 border-b border-slate-800">
-                            <td class="px-6 py-4 font-mono whitespace-nowrap text-primary-500"><b>08:50 – 09:00</b></td>
-                            <td class="px-6 py-4">
-                                <span class="block text-base font-semibold text-slate-100">Opening Remarks</span>
-                            </td>
+            <div class="overflow-x-auto rounded-lg shadow-md border border-slate-800 bg-slate-950/30">
+                <table class="w-full text-left border-collapse text-slate-100 min-w-[760px]">
+                    <thead class="bg-primary-900 text-base font-semibold">
+                        <tr>
+                            <th class="px-5 py-4 text-primary-100">Time</th>
+                            <th class="px-5 py-4 text-primary-100">Start</th>
+                            <th class="px-5 py-4 text-primary-100">End</th>
+                            <th class="px-5 py-4 text-primary-100">Program</th>
+                            <th class="px-5 py-4 text-primary-100">Speaker</th>
                         </tr>
-
-                        <tr class="bg-slate-900/40 border-b border-slate-800">
-                            <td class="px-6 py-4 font-mono whitespace-nowrap text-primary-500"><b>09:00 – 09:45</b></td>
-                            <td class="px-6 py-4">
-                                <span class="block text-base font-semibold text-slate-100">Invited Talk 1</span>
-                                <span class="block mt-0.5 text-sm text-slate-300">
-                                    <a href="https://people.inf.ethz.ch/marc.pollefeys/" class="font-semibold text-primary-500 hover:underline">Marc Pollefeys</a>
-                                    (ETH Zurich / Microsoft)
-                                </span>
-                            </td>
+                    </thead>
+                    <tbody class="divide-y divide-slate-800 text-sm md:text-base">
+                        <tr class="bg-slate-950/20">
+                            <td class="px-5 py-4 font-semibold text-primary-500 whitespace-nowrap">08:30-08:40</td>
+                            <td class="px-5 py-4 whitespace-nowrap">08:30</td>
+                            <td class="px-5 py-4 whitespace-nowrap">08:40</td>
+                            <td class="px-5 py-4 font-semibold text-slate-100">Opening Remarks</td>
+                            <td class="px-5 py-4 text-slate-300"></td>
                         </tr>
-
-                        <tr class="bg-slate-900/40 border-b border-slate-800">
-                            <td class="px-6 py-4 font-mono whitespace-nowrap text-primary-500"><b>09:45 – 10:30</b></td>
-                            <td class="px-6 py-4">
-                                <span class="block text-base font-semibold text-slate-100">Invited Talk 2</span>
-                                <span class="block mt-0.5 text-sm text-slate-300">
-                                    <a href="https://www.cvlibs.net/" class="font-semibold text-primary-500 hover:underline">Andreas Geiger</a>
-                                    (University of Tübingen)
-                                </span>
-                            </td>
+                        <tr class="bg-slate-900/40">
+                            <td class="px-5 py-4 font-semibold text-primary-500 whitespace-nowrap">08:40-09:20</td>
+                            <td class="px-5 py-4 whitespace-nowrap">08:40</td>
+                            <td class="px-5 py-4 whitespace-nowrap">09:20</td>
+                            <td class="px-5 py-4 font-semibold text-slate-100">Invited Talk 1</td>
+                            <td class="px-5 py-4 whitespace-nowrap">Marc Pollefeys</td>
                         </tr>
-
-                        <tr class="bg-slate-950/20 border-b border-slate-800">
-                            <td class="px-6 py-4 font-mono whitespace-nowrap text-primary-500"><b>10:30 – 11:10</b></td>
-                            <td class="px-6 py-4">
-                                <span class="block text-base font-semibold text-slate-100">Sponsor Talk</span>
-                            </td>
+                        <tr class="bg-slate-900/40">
+                            <td class="px-5 py-4 font-semibold text-primary-500 whitespace-nowrap">09:20-10:00</td>
+                            <td class="px-5 py-4 whitespace-nowrap">09:20</td>
+                            <td class="px-5 py-4 whitespace-nowrap">10:00</td>
+                            <td class="px-5 py-4 font-semibold text-slate-100">Invited Talk 2</td>
+                            <td class="px-5 py-4 whitespace-nowrap">Andreas Geiger</td>
                         </tr>
-
-                        <tr class="bg-slate-900/40 border-b border-slate-800">
-                            <td class="px-6 py-4 font-mono whitespace-nowrap text-primary-500"><b>11:10 – 11:55</b></td>
-                            <td class="px-6 py-4">
-                                <span class="block text-base font-semibold text-slate-100">Invited Talk 3</span>
-                                <span class="block mt-0.5 text-sm text-slate-300">
-                                    <a href="https://www.cs.cmu.edu/~katef/" class="font-semibold text-primary-500 hover:underline">Katerina Fragkiadaki</a>
-                                    (Carnegie Mellon University)
-                                </span>
-                            </td>
+                        <tr class="bg-primary-100/10">
+                            <td class="px-5 py-4 font-semibold text-primary-500 whitespace-nowrap">10:00-11:00</td>
+                            <td class="px-5 py-4 whitespace-nowrap">10:00</td>
+                            <td class="px-5 py-4 whitespace-nowrap">11:00</td>
+                            <td class="px-5 py-4 font-semibold text-slate-100">Coffee Break &amp; Poster Session I</td>
+                            <td class="px-5 py-4 text-slate-300"></td>
                         </tr>
-
-                        <tr class="bg-slate-950/30 border-b border-slate-800">
-                            <td class="px-6 py-4 font-mono whitespace-nowrap text-primary-500"><b>11:55 – 13:00</b></td>
-                            <td class="px-6 py-4">
-                                <span class="block text-base font-semibold text-slate-100">Poster Session I</span>
-                            </td>
+                        <tr class="bg-slate-900/40">
+                            <td class="px-5 py-4 font-semibold text-primary-500 whitespace-nowrap">11:00-11:40</td>
+                            <td class="px-5 py-4 whitespace-nowrap">11:00</td>
+                            <td class="px-5 py-4 whitespace-nowrap">11:40</td>
+                            <td class="px-5 py-4 font-semibold text-slate-100">Invited Talk 3</td>
+                            <td class="px-5 py-4 whitespace-nowrap">Katerina Fragkiadaki</td>
                         </tr>
-
-                        <tr class="bg-slate-950/30 border-b border-slate-800">
-                            <td class="px-6 py-4 font-mono whitespace-nowrap text-primary-500"><b>13:00 – 14:00</b></td>
-                            <td class="px-6 py-4">
-                                <span class="block text-base font-semibold text-slate-100">Lunch Break</span>
-                            </td>
+                        <tr class="bg-amber-100/10">
+                            <td class="px-5 py-4 font-semibold text-primary-500 whitespace-nowrap">11:40-12:00</td>
+                            <td class="px-5 py-4 whitespace-nowrap">11:40</td>
+                            <td class="px-5 py-4 whitespace-nowrap">12:00</td>
+                            <td class="px-5 py-4 font-semibold text-slate-100">Sponsor Talk</td>
+                            <td class="px-5 py-4 text-slate-300"></td>
                         </tr>
-
-                        <tr class="bg-slate-900/40 border-b border-slate-800">
-                            <td class="px-6 py-4 font-mono whitespace-nowrap text-primary-500"><b>14:00 – 14:45</b></td>
-                            <td class="px-6 py-4">
-                                <span class="block text-base font-semibold text-slate-100">Invited Talk 4</span>
-                                <span class="block mt-0.5 text-sm text-slate-300">
-                                    <a href="https://www.cs.utexas.edu/~yukez/" class="font-semibold text-primary-500 hover:underline">Yuke Zhu</a>
-                                    (UT Austin / NVIDIA)
-                                </span>
-                            </td>
+                        <tr class="bg-primary-100/10">
+                            <td class="px-5 py-4 font-semibold text-primary-500 whitespace-nowrap">12:00-13:45</td>
+                            <td class="px-5 py-4 whitespace-nowrap">12:00</td>
+                            <td class="px-5 py-4 whitespace-nowrap">13:45</td>
+                            <td class="px-5 py-4 font-semibold text-slate-100">Lunch</td>
+                            <td class="px-5 py-4 text-slate-300"></td>
                         </tr>
-
-                        <tr class="bg-slate-900/40 border-b border-slate-800">
-                            <td class="px-6 py-4 font-mono whitespace-nowrap text-primary-500"><b>14:45 – 15:30</b></td>
-                            <td class="px-6 py-4">
-                                <span class="block text-base font-semibold text-slate-100">Invited Talk 5</span>
-                                <span class="block mt-0.5 text-sm text-slate-300">
-                                    <a href="https://www.ranjaykrishna.com/" class="font-semibold text-primary-500 hover:underline">Ranjay Krishna</a>
-                                    (University of Washington / Allen Institute)
-                                </span>
-                            </td>
+                        <tr class="bg-slate-900/40">
+                            <td class="px-5 py-4 font-semibold text-primary-500 whitespace-nowrap">13:45-14:25</td>
+                            <td class="px-5 py-4 whitespace-nowrap">13:45</td>
+                            <td class="px-5 py-4 whitespace-nowrap">14:25</td>
+                            <td class="px-5 py-4 font-semibold text-slate-100">Invited Talk 4</td>
+                            <td class="px-5 py-4 whitespace-nowrap">Yuke Zhu</td>
                         </tr>
-
-                        <tr class="bg-slate-950/20 border-b border-slate-800">
-                            <td class="px-6 py-4 font-mono whitespace-nowrap text-primary-500"><b>15:30 – 16:00</b></td>
-                            <td class="px-6 py-4">
-                                <span class="block text-base font-semibold text-slate-100">VLNVerse Challenge Presentation</span>
-                            </td>
+                        <tr class="bg-slate-900/40">
+                            <td class="px-5 py-4 font-semibold text-primary-500 whitespace-nowrap">14:25-15:05</td>
+                            <td class="px-5 py-4 whitespace-nowrap">14:25</td>
+                            <td class="px-5 py-4 whitespace-nowrap">15:05</td>
+                            <td class="px-5 py-4 font-semibold text-slate-100">Invited Talk 5</td>
+                            <td class="px-5 py-4 whitespace-nowrap">Ranjay Krishna</td>
                         </tr>
-
-                        <tr class="bg-slate-900/40 border-b border-slate-800">
-                            <td class="px-6 py-4 font-mono whitespace-nowrap text-primary-500"><b>16:00 – 16:45</b></td>
-                            <td class="px-6 py-4">
-                                <span class="block text-base font-semibold text-slate-100">Invited Talk 6</span>
-                                <span class="block mt-0.5 text-sm text-slate-300">
-                                    <a href="https://people.csail.mit.edu/ganchuang/" class="font-semibold text-primary-500 hover:underline">Chuang Gan</a>
-                                    (UMass Amherst / MIT-IBM Watson AI Lab)
-                                </span>
-                            </td>
+                        <tr class="bg-primary-100/10">
+                            <td class="px-5 py-4 font-semibold text-primary-500 whitespace-nowrap">15:00-16:00</td>
+                            <td class="px-5 py-4 whitespace-nowrap">15:00</td>
+                            <td class="px-5 py-4 whitespace-nowrap">16:00</td>
+                            <td class="px-5 py-4 font-semibold text-slate-100">Coffee Break &amp; Poster Session II</td>
+                            <td class="px-5 py-4 text-slate-300"></td>
                         </tr>
-
-                        <tr class="bg-slate-950/30 border-b border-slate-800">
-                            <td class="px-6 py-4 font-mono whitespace-nowrap text-primary-500"><b>16:45 – 17:00</b></td>
-                            <td class="px-6 py-4">
-                                <span class="block text-base font-semibold text-slate-100">Closing Remarks</span>
-                            </td>
+                        <tr class="bg-slate-900/40">
+                            <td class="px-5 py-4 font-semibold text-primary-500 whitespace-nowrap">16:00-16:40</td>
+                            <td class="px-5 py-4 whitespace-nowrap">16:00</td>
+                            <td class="px-5 py-4 whitespace-nowrap">16:40</td>
+                            <td class="px-5 py-4 font-semibold text-slate-100">Invited Talk 6</td>
+                            <td class="px-5 py-4 whitespace-nowrap">Chuang Gan</td>
                         </tr>
-
-                        <tr class="bg-slate-950/30 border-b border-slate-800">
-                            <td class="px-6 py-4 font-mono whitespace-nowrap text-primary-500"><b>17:00 – 18:00</b></td>
-                            <td class="px-6 py-4">
-                                <span class="block text-base font-semibold text-slate-100">Poster Session II &amp; Networking</span>
-                            </td>
+                        <tr class="bg-slate-900/40">
+                            <td class="px-5 py-4 font-semibold text-primary-500 whitespace-nowrap">16:40-17:20</td>
+                            <td class="px-5 py-4 whitespace-nowrap">16:40</td>
+                            <td class="px-5 py-4 whitespace-nowrap">17:20</td>
+                            <td class="px-5 py-4 font-semibold text-slate-100">VLNVerse Challenge Presentation</td>
+                            <td class="px-5 py-4 text-slate-300"></td>
+                        </tr>
+                        <tr class="bg-slate-950/20">
+                            <td class="px-5 py-4 font-semibold text-primary-500 whitespace-nowrap">17:20-17:30</td>
+                            <td class="px-5 py-4 whitespace-nowrap">17:20</td>
+                            <td class="px-5 py-4 whitespace-nowrap">17:30</td>
+                            <td class="px-5 py-4 font-semibold text-slate-100">Closing Remarks</td>
+                            <td class="px-5 py-4 text-slate-300"></td>
                         </tr>
                     </tbody>
                 </table>
